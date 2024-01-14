@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:serif;
+}
+body{
+    background: linear-gradient(to right, rgba(60, 59, 59, 0.8), rgba(37, 35, 35, 0.8)), 
+    url('https://images.pexels.com/photos/1324803/pexels-photo-1324803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1g');
+background-size: cover;
+background-position: center;
+    /* background-image: url('https://images.pexels.com/photos/1324803/pexels-photo-1324803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1g');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.timeChange form > input{
+    display: none;
+}
+.timeChange form > input{
+    color: black;
+}
+.timeChange{
+    margin:10px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: end;
+}
+.timeChange #btn{
+  
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px;
+    background-color:rgb(135, 176, 135);
+    border-radius:10px;
+}
+.timeChange #btn:hover{
+    background-color: transparent;
+    box-shadow: 5px 5px 5px rgb(135, 176, 135);
+}
+.timing{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+   
+}
+.box{
+    padding: 20px;
+    border: 2px solid white;
+}
+.box > p{
+    /* padding-left:5px ; */
+    text-align: center;
+}
+.title{
+  margin-top: 50px;
+}
+.content,.title{
+    text-align: center;
+    padding: 0 0 20px 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
