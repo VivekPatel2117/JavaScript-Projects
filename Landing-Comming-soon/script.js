@@ -10,13 +10,16 @@ const secondsCount = document.getElementById('secondscount');
 function showdate() {
     dateBtn.style.display = "none";
     datepicker.style.display = "block";
+    document.getElementById('close').style.display="block";
 }
+document.getElementById('close').addEventListener('click',()=>{
+    datepicker.style.display="none";
+    dateBtn.style.display = "block";
+    document.getElementById('close').style.display="none";
+})
 
 const updateTime = () => {
-    datepicker.style.display = "none";
     userDateinput = new Date(datepicker.value);
-    dateBtn.style.display = "block";
-
     const userDate = userDateinput.toLocaleString();
     const currentTime = new Date();
     const systemDate = currentTime.toLocaleString();
@@ -54,7 +57,6 @@ const updateTime = () => {
 
     // Call the function again after 1000 milliseconds (1 second)
     setTimeout(updateTime, 1000);
+
 };
 
-// Initial call to start the process
-updateTime();
