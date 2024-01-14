@@ -1,1 +1,1 @@
-# Pillai-socio
+# All JavaScript skils with pure HTML CSS
