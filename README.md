@@ -1,1 +1,1 @@
-# All JavaScript skils with pure HTML CSS
+# All JavaScript skills with pure HTML CSS
